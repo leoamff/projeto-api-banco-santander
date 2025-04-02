@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:sdw2023
+    driver-class-name: org.h2.Driver
+    username: sdw203
+    password:
+
+  jpa:
+    show-sql: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        trace: false
+        web-allow-others: true
