@@ -1,4 +1,4 @@
-package me.dio.ProjetoApi.domain.model;
+package me.dio.projeto.banco.domain.model;
 
 import jakarta.persistence.*;
 
